@@ -30,7 +30,7 @@ const Lifelist = ({ onSelect }) => {
       selectedItems.includes(item.id)
     );
     onSelect(selectedLifestyles); // 부모 컴포넌트로 선택된 항목 전달
-    setIsModalOpen(false); // Close the modal after saving selection
+    setIsModalOpen(false); // 저장 버튼 누르면 모달 닫기
   };
 
   // 오버레이 클릭 시 모달 닫기

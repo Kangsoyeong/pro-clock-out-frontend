@@ -17,7 +17,7 @@ const Mypage = () => {
   // Lifelist 컴포넌트 state
   const [isLifelistVisible, setIsLifelistVisible] = useState(false);
 
-  // Store selected lifestyles
+  // 선택된 추구하는 삶 저장
   const [selectedLifestyles, setSelectedLifestyles] = useState([]);
 
   const onChangeImage = (e) => {
